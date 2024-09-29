@@ -1,11 +1,11 @@
 import './App.css'
-import HeroSection from './components/Herosection/heroSection'
+import HomePage from './components/HomePage/HomePage'
 
 function App() {
 
   return (
     <div>
-      <HeroSection />
+      <HomePage />
     </div>
   )
 }

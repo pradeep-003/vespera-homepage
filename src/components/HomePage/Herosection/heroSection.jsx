@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import BackgroundImage from "../../assets/homepage/heroimage/image.png";
+import BackgroundImage from "../../../assets/homepage/heroimage/image.png";
 import './homepage.css'
 
 function HeroSection() {
@@ -384,7 +384,7 @@ function HeroSection() {
         </div>
         <div className='w-[700px] h-[180px] mt-[-30px] bg-zinc-800 rounded-lg flex justify-around items-center'>
             <div className='flex flex-col items-center'>
-                <svg width="125" height="126" viewBox="0 0 125 126" fill="none" xmlns="http://www.w3.org/2000/svg" className='group hover:transition-colors duration-300 custom-hover-fill'>
+                <svg width="125" height="126" viewBox="0 0 125 126" fill="none" xmlns="http://www.w3.org/2000/svg" className='select-none group hover:transition-colors duration-300 custom-hover-fill'>
                     <path d="M115.708 60.6756C83.1324 50.4512 75.0624 42.3147 64.9153 9.47655C64.7253 9.0377 64.4125 8.66425 64.0151 8.40197C63.6177 8.1397 63.153 8 62.678 8C62.203 8 61.7383 8.1397 61.3409 8.40197C60.9435 8.66425 60.6306 9.0377 60.4407 9.47655C50.2954 42.3147 42.2255 50.4512 9.64796 60.6756C9.17039 60.8255 8.75288 61.1254 8.4564 61.5315C8.15992 61.9376 8 62.4285 8 62.9327C8 63.4369 8.15992 63.9279 8.4564 64.334C8.75288 64.7401 9.17039 65.04 9.64796 65.1899C42.2255 75.4105 50.2954 83.5469 60.4407 116.389C60.5898 116.869 60.8873 117.289 61.2897 117.587C61.6922 117.885 62.1786 118.046 62.678 118.046C63.1774 118.046 63.6638 117.885 64.0662 117.587C64.4687 117.289 64.7661 116.869 64.9153 116.389C75.0624 83.5469 83.1324 75.4105 115.708 65.1899C116.186 65.04 116.603 64.7401 116.9 64.334C117.196 63.9279 117.356 63.4369 117.356 62.9327C117.356 62.4285 117.196 61.9376 116.9 61.5315C116.603 61.1254 116.186 60.8255 115.708 60.6756Z" 
                     className=" fill-white transition-colors group duration-300"/>
 
@@ -396,7 +396,7 @@ function HeroSection() {
                 <h3 className='text-white'>Days</h3>
             </div>
             <div className='flex flex-col items-center'>
-                <svg width="125" height="126" viewBox="0 0 125 126" fill="none" xmlns="http://www.w3.org/2000/svg" className='group hover:transition-colors duration-300 custom-hover-fill'>
+                <svg width="125" height="126" viewBox="0 0 125 126" fill="none" xmlns="http://www.w3.org/2000/svg" className='select-none group hover:transition-colors duration-300 custom-hover-fill'>
                     <path d="M115.708 60.6756C83.1324 50.4512 75.0624 42.3147 64.9153 9.47655C64.7253 9.0377 64.4125 8.66425 64.0151 8.40197C63.6177 8.1397 63.153 8 62.678 8C62.203 8 61.7383 8.1397 61.3409 8.40197C60.9435 8.66425 60.6306 9.0377 60.4407 9.47655C50.2954 42.3147 42.2255 50.4512 9.64796 60.6756C9.17039 60.8255 8.75288 61.1254 8.4564 61.5315C8.15992 61.9376 8 62.4285 8 62.9327C8 63.4369 8.15992 63.9279 8.4564 64.334C8.75288 64.7401 9.17039 65.04 9.64796 65.1899C42.2255 75.4105 50.2954 83.5469 60.4407 116.389C60.5898 116.869 60.8873 117.289 61.2897 117.587C61.6922 117.885 62.1786 118.046 62.678 118.046C63.1774 118.046 63.6638 117.885 64.0662 117.587C64.4687 117.289 64.7661 116.869 64.9153 116.389C75.0624 83.5469 83.1324 75.4105 115.708 65.1899C116.186 65.04 116.603 64.7401 116.9 64.334C117.196 63.9279 117.356 63.4369 117.356 62.9327C117.356 62.4285 117.196 61.9376 116.9 61.5315C116.603 61.1254 116.186 60.8255 115.708 60.6756Z"
                     className="fill-white transition-colors group duration-300"/>
                     <text x="50%" y="50%" textAnchor="middle" fill="#2D2D2D" fontSize="30" dy=".3em"
@@ -407,7 +407,7 @@ function HeroSection() {
                 <h3 className='text-white'>hours</h3>
             </div>
             <div className='flex flex-col items-center'>
-                <svg width="125" height="126" viewBox="0 0 125 126" fill="none" xmlns="http://www.w3.org/2000/svg" className='group hover:transition-colors duration-300 custom-hover-fill'>
+                <svg width="125" height="126" viewBox="0 0 125 126" fill="none" xmlns="http://www.w3.org/2000/svg" className='select-none group hover:transition-colors duration-300 custom-hover-fill'>
                     <path d="M115.708 60.6756C83.1324 50.4512 75.0624 42.3147 64.9153 9.47655C64.7253 9.0377 64.4125 8.66425 64.0151 8.40197C63.6177 8.1397 63.153 8 62.678 8C62.203 8 61.7383 8.1397 61.3409 8.40197C60.9435 8.66425 60.6306 9.0377 60.4407 9.47655C50.2954 42.3147 42.2255 50.4512 9.64796 60.6756C9.17039 60.8255 8.75288 61.1254 8.4564 61.5315C8.15992 61.9376 8 62.4285 8 62.9327C8 63.4369 8.15992 63.9279 8.4564 64.334C8.75288 64.7401 9.17039 65.04 9.64796 65.1899C42.2255 75.4105 50.2954 83.5469 60.4407 116.389C60.5898 116.869 60.8873 117.289 61.2897 117.587C61.6922 117.885 62.1786 118.046 62.678 118.046C63.1774 118.046 63.6638 117.885 64.0662 117.587C64.4687 117.289 64.7661 116.869 64.9153 116.389C75.0624 83.5469 83.1324 75.4105 115.708 65.1899C116.186 65.04 116.603 64.7401 116.9 64.334C117.196 63.9279 117.356 63.4369 117.356 62.9327C117.356 62.4285 117.196 61.9376 116.9 61.5315C116.603 61.1254 116.186 60.8255 115.708 60.6756Z"
                     className="fill-white transition-colors group duration-300"/>
                     <text x="50%" y="50%" textAnchor="middle" fill="#2D2D2D" fontSize="30" dy=".3em"
@@ -418,7 +418,7 @@ function HeroSection() {
                 <h3 className='text-white'>Minutes</h3>
             </div>
             <div className='flex flex-col items-center'>
-                <svg width="125" height="126" viewBox="0 0 125 126" fill="none" xmlns="http://www.w3.org/2000/svg" className='group hover:transition-colors duration-300 custom-hover-fill'>
+                <svg width="125" height="126" viewBox="0 0 125 126" fill="none" xmlns="http://www.w3.org/2000/svg" className='select-none group hover:transition-colors duration-300 custom-hover-fill'>
                     <path d="M115.708 60.6756C83.1324 50.4512 75.0624 42.3147 64.9153 9.47655C64.7253 9.0377 64.4125 8.66425 64.0151 8.40197C63.6177 8.1397 63.153 8 62.678 8C62.203 8 61.7383 8.1397 61.3409 8.40197C60.9435 8.66425 60.6306 9.0377 60.4407 9.47655C50.2954 42.3147 42.2255 50.4512 9.64796 60.6756C9.17039 60.8255 8.75288 61.1254 8.4564 61.5315C8.15992 61.9376 8 62.4285 8 62.9327C8 63.4369 8.15992 63.9279 8.4564 64.334C8.75288 64.7401 9.17039 65.04 9.64796 65.1899C42.2255 75.4105 50.2954 83.5469 60.4407 116.389C60.5898 116.869 60.8873 117.289 61.2897 117.587C61.6922 117.885 62.1786 118.046 62.678 118.046C63.1774 118.046 63.6638 117.885 64.0662 117.587C64.4687 117.289 64.7661 116.869 64.9153 116.389C75.0624 83.5469 83.1324 75.4105 115.708 65.1899C116.186 65.04 116.603 64.7401 116.9 64.334C117.196 63.9279 117.356 63.4369 117.356 62.9327C117.356 62.4285 117.196 61.9376 116.9 61.5315C116.603 61.1254 116.186 60.8255 115.708 60.6756Z"
                     className="fill-white transition-colors group duration-300"/>
                     <text x="50%" y="50%" textAnchor="middle" fill="#2D2D2D" fontSize="30" dy=".3em"
