@@ -1,0 +1,82 @@
+.faq-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #181818;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-container h1 {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 71.46px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+/* Accordion Styling */
+.accordion-item {
+  width: 1080px;
+  background-color: #2d2d2d;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Text and Icon container */
+.text-imgContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 28px;
+  cursor: pointer;
+  background-color: #131313;
+  transition: background-color 0.3s ease;
+}
+
+.text-imgContainer:hover {
+  background-color: #2d2d2d;
+}
+
+.text-imgContainer p {
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+}
+
+/* Icon for Accordion */
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.icon.rotate {
+  transform: rotate(180deg);
+}
+
+/* Hidden box for answer text */
+.hidden-box {
+  opacity: 0;
+  max-height: 0;
+  width: 100%;
+  font-size: 20px;
+  background-color: #1b1b1b;
+  color: #fff;
+  text-align: left;
+  padding: 0 28px; /* Removed top/bottom padding initially to prevent visual gaps */
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+}
+
+.accordion-item.open .hidden-box {
+  max-height: 200px; /* Set max height large enough to accommodate content */
+  opacity: 0.75;
+  padding: 16px 126px 16px 28px;
+}

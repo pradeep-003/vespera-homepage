@@ -1,0 +1,37 @@
+footer {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjusted height for a better fit with large circle */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #181818;
+  overflow: hidden; /* To prevent the circle from overflowing the container */
+}
+
+.footer-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+
+  padding: 20px 0;
+}
+
+/* Applying styles to the first child paragraph inside the footer */
+footer p:first-child {
+  /* Example: Red text for the first paragraph */
+  font-size: 24px; /* Example: Larger font size for the first paragraph */
+  font-weight: 500;
+  line-height: 30.62px;
+}
+footer p:last-child {
+  font-size: 10px; /* Example: Larger font size for the first paragraph */
+  font-weight: 300;
+  line-height: 12.76px;
+}
+
+.footer-text span {
+  color: red;
+}
